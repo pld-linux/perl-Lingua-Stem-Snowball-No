@@ -9,12 +9,12 @@ Summary:	Lingua::Stem::Snowball::No - Porter's stemming algorithm for Norwegian
 Summary(pl):	Lingua::Stem::Snowball::No - algorytm Portera okre¶laj±cy rdzenie s³ów dla jêzyka norweskiego
 Name:		perl-Lingua-Stem-Snowball-No
 Version:	1.0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	71f71bb370b22f5c02b3e4a32b9f8998
-BuildRequires:	perl >= 5.8
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
