@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	Snowball-Norwegian
 Summary:	Lingua::Stem::Snowball::No - Porter's stemming algorithm for Norwegian
-Summary(pl):	Lingua::Stem::Snowball::No - algorytmu Portera okre¶laj±cy rdzenie s³ów dla jêzyka norweskiego
+Summary(pl):	Lingua::Stem::Snowball::No - algorytm Portera okre¶laj±cy rdzenie s³ów dla jêzyka norweskiego
 Name:		perl-Lingua-Stem-Snowball-No
 Version:	1.0
 Release:	2
