@@ -10,7 +10,7 @@ Summary(pl):	Lingua::Stem::Snowball::No - algorytm Portera okre¶laj±cy rdzenie s
 Name:		perl-Lingua-Stem-Snowball-No
 Version:	1.0
 Release:	2
-License:	?
+License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	71f71bb370b22f5c02b3e4a32b9f8998
