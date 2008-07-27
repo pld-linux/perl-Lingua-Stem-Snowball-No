@@ -9,7 +9,7 @@ Summary:	Lingua::Stem::Snowball::No - Porter's stemming algorithm for Norwegian
 Summary(pl.UTF-8):	Lingua::Stem::Snowball::No - algorytm Portera określający rdzenie słów dla języka norweskiego
 Name:		perl-Lingua-Stem-Snowball-No
 Version:	1.0
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
