@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Lingua
 %define		pnam	Snowball-Norwegian
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Stem::Snowball::No - Porter's stemming algorithm for Norwegian
 Summary(pl.UTF-8):	Lingua::Stem::Snowball::No - algorytm Portera określający rdzenie słów dla języka norweskiego
 Name:		perl-Lingua-Stem-Snowball-No
@@ -14,6 +14,7 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	24197e600ea4d9b5bb5ca9c175f14676
+URL:		http://search.cpan.org/dist/Lingua-Snowball-Norwegian/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -22,12 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The stem function takes a scalar as a parameter and stems the word
 according to Martin Porter's Norwegian stemming algorithm, which can
-be found at the Snowball website: http://snowball.tartarus.org/.
+be found at the Snowball website: <http://snowball.tartarus.org/>.
 
 %description -l pl.UTF-8
 Funkcja określająca rdzenie słów pobiera skalarny parametr i korzysta
 z algorytmu dla języka norweskiego autorstwa Martina Portera. Algorytm
-ten można znaleźć na stronie Snowballa: http://snowball.tartarus.org/.
+ten można znaleźć na stronie Snowballa:
+<http://snowball.tartarus.org/>.
 
 %prep
 %setup -q -n %{pnam}-%{version}
